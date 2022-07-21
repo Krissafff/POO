@@ -15,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Obama obama = new Obama();
+        obama.direitosDeveres();
+    }
+}
+
+        /*
+
         Conta conta = new Conta();
         conta.depositar(100);//200
         conta.sacar(50);//150
@@ -22,10 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println( conta.recuperarSaldo() );
 
-    }
-}
 
-        /*
         Passaro passaro = new Passaro();
         passaro.correr();
 
